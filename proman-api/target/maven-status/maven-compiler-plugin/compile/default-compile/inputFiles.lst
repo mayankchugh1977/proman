@@ -1,5 +1,6 @@
 D:\Upgrad API\proman\proman-api\target\generated-sources\.\com\upgrad\proman\api\model\RoleType.java
 D:\Upgrad API\proman\proman-api\target\generated-sources\.\com\upgrad\proman\api\model\UserOperationRequest.java
+D:\Upgrad API\proman\proman-api\src\main\java\com\upgrad\proman\service\exception\RestExceptionHandler.java
 D:\Upgrad API\proman\proman-api\target\generated-sources\.\io\swagger\RFC3339DateFormat.java
 D:\Upgrad API\proman\proman-api\src\main\java\com\upgrad\proman\api\config\SwaggerConfiguration.java
 D:\Upgrad API\proman\proman-api\target\generated-sources\.\io\swagger\api\ApiException.java
@@ -12,6 +13,7 @@ D:\Upgrad API\proman\proman-api\target\generated-sources\.\com\upgrad\proman\api
 D:\Upgrad API\proman\proman-api\target\generated-sources\.\com\upgrad\proman\api\model\UserSummaryType.java
 D:\Upgrad API\proman\proman-api\src\main\java\com\upgrad\proman\api\controller\SignupController.java
 D:\Upgrad API\proman\proman-api\target\generated-sources\.\io\swagger\api\ApiOriginFilter.java
+D:\Upgrad API\proman\proman-api\src\main\java\com\upgrad\proman\api\controller\UserAdminController.java
 D:\Upgrad API\proman\proman-api\target\generated-sources\.\com\upgrad\proman\api\model\RoleDetailsType.java
 D:\Upgrad API\proman\proman-api\target\generated-sources\.\com\upgrad\proman\api\model\SignupUserRequest.java
 D:\Upgrad API\proman\proman-api\target\generated-sources\.\io\swagger\configuration\SwaggerDocumentationConfig.java

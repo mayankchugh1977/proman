@@ -8,6 +8,7 @@ com\upgrad\proman\api\model\RoleRequest.class
 io\swagger\api\ApiResponseMessage.class
 com\upgrad\proman\api\model\UserOperationRequest.class
 com\upgrad\proman\api\controller\SignupController.class
+com\upgrad\proman\api\controller\UserAdminController.class
 com\upgrad\proman\api\config\SwaggerConfiguration.class
 com\upgrad\proman\api\model\UserOperationsRequest.class
 com\upgrad\proman\api\model\UsersSummaryResponse.class
@@ -17,6 +18,7 @@ io\swagger\Swagger2SpringBoot.class
 io\swagger\api\ApiOriginFilter.class
 com\upgrad\proman\api\model\CreateUserResponse.class
 io\swagger\Swagger2SpringBoot$ExitException.class
+com\upgrad\proman\service\exception\RestExceptionHandler.class
 com\upgrad\proman\api\model\UserDetailsResponse.class
 com\upgrad\proman\api\model\UserSummaryType.class
 io\swagger\api\NotFoundException.class
