@@ -6,6 +6,7 @@ import com.upgrad.proman.service.business.SignupBusinessService;
 import com.upgrad.proman.service.entity.UserEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 
 
@@ -17,6 +18,7 @@ import java.time.ZonedDateTime;
 import java.util.UUID;
 
 
+
 @RestController
 @RequestMapping("/")
 public class SignupController {
@@ -24,7 +26,7 @@ public class SignupController {
     @Autowired
     private SignupBusinessService signupBusinessService;
 
-    @RequestMapping(method = RequestMethod.POST, path = "/signup", consumes = "application/json;charset=UTF-8", produces = "application/json;charset=UTF-8")
+    @RequestMapping(method = RequestMethod.POST, path = "/signup", consumes = MediaType.APPLICATION_JSON_UTF8_VALUE, produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
     public ResponseEntity<SignupUserResponse> signup(final SignupUserRequest signupUserRequest) {
 
         final UserEntity userEntity = new UserEntity();

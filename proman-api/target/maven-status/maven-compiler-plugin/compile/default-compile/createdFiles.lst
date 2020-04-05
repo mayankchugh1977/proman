@@ -7,6 +7,7 @@ com\upgrad\proman\api\model\CreateUserRequest.class
 com\upgrad\proman\api\model\RoleRequest.class
 io\swagger\api\ApiResponseMessage.class
 com\upgrad\proman\api\model\UserOperationRequest.class
+com\upgrad\proman\api\controller\AuthenticationController.class
 com\upgrad\proman\api\controller\SignupController.class
 com\upgrad\proman\api\controller\UserAdminController.class
 com\upgrad\proman\api\config\SwaggerConfiguration.class
@@ -22,6 +23,7 @@ com\upgrad\proman\service\exception\RestExceptionHandler.class
 com\upgrad\proman\api\model\UserDetailsResponse.class
 com\upgrad\proman\api\model\UserSummaryType.class
 io\swagger\api\NotFoundException.class
+com\upgrad\proman\api\model\AuthorizedUserResponse.class
 com\upgrad\proman\api\PromanApiApplication.class
 io\swagger\RFC3339DateFormat.class
 com\upgrad\proman\api\model\UpdateUserRequest.class

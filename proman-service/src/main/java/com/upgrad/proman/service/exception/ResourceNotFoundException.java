@@ -3,7 +3,7 @@ package com.upgrad.proman.service.exception;
 import java.io.PrintStream;
 import java.io.PrintWriter;
 
-public class ResourceNotFoundException extends Exception {
+public class    ResourceNotFoundException extends Exception {
     private final String code;
     private final String errorMessage;
 

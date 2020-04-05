@@ -7,9 +7,11 @@ D:\Upgrad API\proman\proman-api\target\generated-sources\.\io\swagger\api\ApiExc
 D:\Upgrad API\proman\proman-api\target\generated-sources\.\io\swagger\api\ApiResponseMessage.java
 D:\Upgrad API\proman\proman-api\target\generated-sources\.\io\swagger\Swagger2SpringBoot.java
 D:\Upgrad API\proman\proman-api\target\generated-sources\.\com\upgrad\proman\api\model\UserStatusType.java
+D:\Upgrad API\proman\proman-api\target\generated-sources\.\com\upgrad\proman\api\model\AuthorizedUserResponse.java
 D:\Upgrad API\proman\proman-api\target\generated-sources\.\com\upgrad\proman\api\model\CreateUserResponse.java
 D:\Upgrad API\proman\proman-api\target\generated-sources\.\com\upgrad\proman\api\model\UpdateUserRequest.java
 D:\Upgrad API\proman\proman-api\target\generated-sources\.\com\upgrad\proman\api\model\UserOperationsRequest.java
+D:\Upgrad API\proman\proman-api\src\main\java\com\upgrad\proman\api\controller\AuthenticationController.java
 D:\Upgrad API\proman\proman-api\target\generated-sources\.\com\upgrad\proman\api\model\UserSummaryType.java
 D:\Upgrad API\proman\proman-api\src\main\java\com\upgrad\proman\api\controller\SignupController.java
 D:\Upgrad API\proman\proman-api\target\generated-sources\.\io\swagger\api\ApiOriginFilter.java

@@ -18,13 +18,13 @@ public class RestExceptionHandler {
     }
 
     @ExceptionHandler(AuthenticationFailedException.class)
-    public ResponseEntity<ErrorResponse> resourceNotFoundException(AuthenticationFailedException exc, WebRequest request){
+    public ResponseEntity<ErrorResponse> authenticationFailedException(AuthenticationFailedException exc, WebRequest request){
         return new ResponseEntity<ErrorResponse>(
                 new ErrorResponse().code(exc.getCode()).message(exc.getErrorMessage()), HttpStatus.UNAUTHORIZED);
     }
 
     @ExceptionHandler(UnauthorizedException.class)
-    public ResponseEntity<ErrorResponse> resourceNotFoundException(UnauthorizedException exc, WebRequest request){
+    public ResponseEntity<ErrorResponse> unauthorizedException(UnauthorizedException exc, WebRequest request){
         return new ResponseEntity<ErrorResponse>(
                 new ErrorResponse().code(exc.getCode()).message(exc.getErrorMessage()), HttpStatus.UNAUTHORIZED);
     }
