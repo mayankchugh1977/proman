@@ -23,7 +23,7 @@ public class UserAdminBusinessService {
     public UserEntity getUser(final String userUuid, final String authorizationToken) throws ResourceNotFoundException, UnauthorizedException {
         UserAuthTokenEntity userAuthTokenEntity = userDao.getUserAuthToken(authorizationToken);
         RoleEntity role = userAuthTokenEntity.getUser().getRole();
-        if(role.getUuid() == 101){
+        if(role !=null && role.getUuid() == 101){
             UserEntity userEntity =  userDao.getUser(userUuid);
             if(userEntity == null){
                 throw new ResourceNotFoundException("USR-001", "User not found");
